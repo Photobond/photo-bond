@@ -2,5 +2,14 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mysqlDb": {
+    "name": "mysqlDb",
+    "connector": "mysql",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "database": "photo-bond",
+    "username": "root",
+    "password": "photobond"
   }
 }
